@@ -12,7 +12,7 @@ const DeviceToggles = ({ db, sensor, handleDeviceChange }) => {
 
 
     const devices = values === undefined ? [] : [...new Set(values.map(value => value.device))];
-        // const deviceMap = new Map();
+        // const deviceMap = new Map();ns
         // if (deviceMap.has(value.device)) {
         //     deviceMap.get(value.device).push(value.value);
         // } else {
